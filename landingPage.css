@@ -269,18 +269,17 @@ html, body {
     width: 220px;
 }
 
-/* Standardize image sizes in the Information Section */
 .photo img {
-    width: 200px;          /* Set desired width */
-    height: 200px;         /* Set desired height */
-    object-fit: cover;     /* Ensures images fill the space without distortion */
-    border-radius: 10px;   /* Adds rounded corners */
-    border: 2px solid #f0e68c; /* Optional border for aesthetics */
+    width: 230px;          
+    height: 230px;        
+    object-fit: cover;     
+    border-radius: 10px;   
+    border: 2px solid #f0e68c; 
     transition: 0.3s;
 }
 
 .photo img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); 
 }
 
 .photo p {
@@ -341,19 +340,19 @@ html, body {
     color: #003319;
 }
 
-/* Centered content container for specific pages like Protests */
+
 .centeredContentContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 30px; /* Adjust padding as needed */
-    background-color: rgba(0, 51, 25, 0.83); /* Ensures transparency */
+    padding: 20px 30px; 
+    background-color: rgba(0, 51, 25, 0.83); 
     color: white;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     max-width: 800px;
-    margin: 200px auto; /* Center horizontally with a margin */
+    margin: 200px auto; 
 }
 
 .centeredContentContainer1 {
@@ -361,25 +360,25 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 30px; /* Adjust padding as needed */
-    background-color: rgba(0, 51, 17, 0.55); /* Ensures transparency */
+    padding: 20px 30px; 
+    background-color: rgba(0, 51, 17, 0.55); 
     color: white;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     max-width: 800px;
-    margin: 200px auto; /* Center horizontally with a margin */
+    margin: 200px auto; 
 }
 
 .donate-link {
-    color: #ffd700; /* Bright yellow for better visibility */
+    color: #ffd700; 
     font-weight: bold;
     text-decoration: underline;
 }
 
 .donate-link:hover {
-    color: #ffeb3b; /* Lighter yellow on hover */
-    text-decoration: none; /* Remove underline on hover for effect */
-    background-color: rgba(255, 215, 0, 0.2); /* Slight background highlight on hover */
+    color: #ffeb3b; 
+    text-decoration: none; 
+    background-color: rgba(255, 215, 0, 0.2); 
     padding: 2px 4px;
     border-radius: 3px;
 }
@@ -418,7 +417,7 @@ html, body {
 }
 
 .contact-submit {
-    background-color: #f0e68c; /* Matches other button colors */
+    background-color: #f0e68c; 
     color: #003319;
     font-weight: bold;
     padding: 10px 20px;

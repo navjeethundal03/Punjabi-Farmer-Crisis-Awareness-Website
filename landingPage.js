@@ -1,4 +1,3 @@
-// landingPage.js
 
 // Get references to audio elements and the audio controller icon
 const audio = document.getElementById("backgroundMusic");
@@ -25,6 +24,7 @@ function toggleAudio() {
 // Add click event listener for toggling audio
 audioControllerIcon.addEventListener("click", toggleAudio);
 
+// function for sources
 const qq = document.querySelector(".dropdownContent");
 function s() {
     qq.style.display = "flex";

@@ -1,1 +1,1 @@
-# Punjab-Farmer-Crisis-Awareness-Website
+# Punjabi-Farmer-Crisis-Awareness-Website
