@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture - Punjabi Farmer Crisis</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="resources/video/culture.mp4" type="video/mp4">
+        </video>
+        <audio id="backgroundMusic" class="bgm" src="resources/audio/punjabiFolkMusic.mp3" loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/images/logo.png" alt="Logo">
+                </div>
+                <div class="logoHakurei">Punjab Crisis</div>
+            </a>
+            <img id="audioController" src="resources/images/audioControllerOn.png" onclick="audioController()">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">This is the credited content.</div>
+                <div class="sourceC">Video source: Pexels</div>
+                <div class="sourceC">Music: Mixkit</div>
+                <div class="sourceC">Pictures: Pexels</div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="index.html">Home</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="characters hamburgerStuff" href="donate.html">Donate</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="contact hamburgerStuff" href="contact.html">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <!-- Main Content Section for Culture -->
+    <div class="centeredContentContainer">
+        <h2 class="greetings centered-heading">Cultural Heritage and Tradition</h2>
+        
+        <div class="description">
+            <p>The farming communities in Punjab are deeply rooted in rich cultural traditions that have been passed down through generations. The connection to the land goes beyond farming—it represents identity, heritage, and a way of life. The current crisis not only threatens farmers' livelihoods but also challenges the preservation of these cultural values.</p>
+            
+            <h3 class="centered-heading">Connection to the Land</h3>
+            <p>For Punjabi farmers, the land holds profound cultural and spiritual significance:</p>
+            <ul>
+                <li>The land is seen as a heritage, passed down from ancestors, symbolizing continuity and legacy.</li>
+                <li>Farming practices are intertwined with seasonal festivals and celebrations, such as Vaisakhi, which marks the harvest season.</li>
+                <li>The crisis impacts this relationship, as many families fear losing their ancestral land due to financial pressure.</li>
+            </ul>
+            
+            <h3 class="centered-heading">Traditional Practices and Knowledge</h3>
+            <p>Punjab’s farming culture is rich with traditional knowledge and practices that have sustained communities for centuries:</p>
+            <ul>
+                <li>Knowledge of crop rotation, water conservation, and organic farming methods passed down through generations.</li>
+                <li>Traditional farming techniques that promote soil health and environmental sustainability.</li>
+                <li>The shift toward corporate-driven agriculture risks the loss of these practices as families struggle to keep up with modern demands.</li>
+            </ul>
+
+            <h3 class="centered-heading">Community and Social Bonds</h3>
+            <p>The farming crisis affects not only individual families but also the larger community structure:</p>
+            <ul>
+                <li>Farming communities are closely knit, with strong support systems for sharing resources, labor, and knowledge.</li>
+                <li>The pressures of the crisis lead to the fragmentation of these communities as some families are forced to relocate or abandon farming.</li>
+                <li>Social gatherings and festivals, which are central to rural life, are impacted as families face financial hardship.</li>
+            </ul>
+
+            <h3 class="centered-heading">Preserving Cultural Heritage</h3>
+            <p>Efforts are being made to preserve the cultural heritage of Punjab amidst the crisis:</p>
+            <ul>
+                <li>Local organizations work to support small-scale farmers and maintain traditional farming practices.</li>
+                <li>Communities are raising awareness about the cultural significance of agriculture through storytelling, art, and media.</li>
+                <li>Advocating for policies that support sustainable farming can help protect both the livelihoods of farmers and the cultural heritage they embody.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerLayerBg">
+        <p>&copy; Navjeet Hundal</p>
+    </div>
+
+    <script src="landingPage.js"></script>
+
+</body>
+</html>

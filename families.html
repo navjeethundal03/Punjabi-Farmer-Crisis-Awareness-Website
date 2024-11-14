@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Families - Punjabi Farmer Crisis</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="resources/video/families.mp4" type="video/mp4">
+        </video>
+        <audio id="backgroundMusic" class="bgm" src="resources/audio/punjabiFolkMusic.mp3" loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/images/logo.png" alt="Logo">
+                </div>
+                <div class="logoHakurei">Punjab Crisis</div>
+            </a>
+            <img id="audioController" src="resources/images/audioControllerOn.png" onclick="audioController()">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">This is the credited content.</div>
+                <div class="sourceC">Video source: Pexels</div>
+                <div class="sourceC">Music: Mixkit</div>
+                <div class="sourceC">Pictures: Pexels</div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="index.html">Home</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="characters hamburgerStuff" href="donate.html">Donate</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="contact hamburgerStuff" href="contact.html">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <!-- Main Content Section for Families -->
+    <div class="centeredContentContainer">
+        <h2 class="greetings centered-heading">Impact on Farming Families</h2>
+        
+        <div class="description">
+            <p>Farming families in Punjab have long relied on agriculture as their main source of income and livelihood. However, recent changes in agricultural laws and economic pressures are placing unprecedented strains on these families. The ripple effects of these challenges are felt not only financially but also socially and emotionally.</p>
+            
+            <h3 class="centered-heading">Financial Strain</h3>
+            <p>The changes in agricultural policies have created significant financial challenges for farming families:</p>
+            <ul>
+                <li>Uncertain income due to fluctuating crop prices and removal of minimum support prices (MSP).</li>
+                <li>Increased debt from loans taken to cover farming expenses, which are often difficult to repay.</li>
+                <li>Risk of land loss as families struggle to make ends meet and may be forced to sell land to cover debts.</li>
+            </ul>
+            
+            <h3 class="centered-heading">Social Impact</h3>
+            <p>The economic difficulties faced by farming families also lead to various social challenges, including:</p>
+            <ul>
+                <li>Strain on family relationships due to financial stress and uncertainty about the future.</li>
+                <li>Young family members migrating to urban areas or abroad for better job opportunities, leading to family separation.</li>
+                <li>Loss of traditional farming practices as families struggle to adapt to new corporate-driven agricultural methods.</li>
+            </ul>
+
+            <h3 class="centered-heading">Mental Health Challenges</h3>
+            <p>The ongoing crisis has also affected the mental well-being of many farmers and their families:</p>
+            <ul>
+                <li>Increased anxiety and stress due to financial instability and fear of losing land.</li>
+                <li>Depression and other mental health issues, which are often exacerbated by a lack of support systems in rural areas.</li>
+                <li>Feelings of hopelessness, especially among older farmers who have devoted their lives to the land.</li>
+            </ul>
+
+            <h3 class="centered-heading">How You Can Support Farming Families</h3>
+            <p>There are ways to help support Punjabi farming families who are facing these difficult times:</p>
+            <ul>
+                <li>Donate to organizations that provide financial aid and mental health support for farmers.</li>
+                <li>Raise awareness about the struggles of farming families through social media and community events.</li>
+                <li>Advocate for policies that support sustainable farming and economic security for small farmers.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerLayerBg">
+        <p>&copy; Navjeet Hundal</p>
+    </div>
+
+    <script src="landingPage.js"></script>
+
+</body>
+</html>

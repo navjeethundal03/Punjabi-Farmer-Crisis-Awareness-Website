@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmland - Punjabi Farmer Crisis</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="resources/video/farmland.mp4" type="video/mp4">
+        </video>
+        <audio id="backgroundMusic" class="bgm" src="resources/audio/punjabiFolkMusic.mp3" loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/images/logo.png" alt="Logo">
+                </div>
+                <div class="logoHakurei">Punjab Crisis</div>
+            </a>
+            <img id="audioController" src="resources/images/audioControllerOn.png" onclick="audioController()">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">This is the credited content.</div>
+                <div class="sourceC">Video source: Pexels</div>
+                <div class="sourceC">Music: Mixkit</div>
+                <div class="sourceC">Pictures: Pexels</div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="index.html">Home</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="characters hamburgerStuff" href="donate.html">Donate</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="contact hamburgerStuff" href="contact.html">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <!-- Main Content Section for Farmland -->
+    <div class="centeredContentContainer">
+        <h2 class="greetings centered-heading">Preserving Punjab’s Farmland</h2>
+        
+        <div class="description">
+            <p>Punjab's farmland is known as the "breadbasket of India," providing a significant portion of the country’s food supply. However, the challenges posed by modern agriculture, environmental changes, and policy shifts threaten the sustainability and productivity of this valuable land.</p>
+            
+            <h3 class="centered-heading">Agricultural Importance</h3>
+            <p>Punjab’s farmland plays a critical role in India’s agricultural output:</p>
+            <ul>
+                <li>The region produces a high yield of wheat, rice, and other staple crops essential for food security.</li>
+                <li>Farming practices in Punjab have contributed to India’s self-sufficiency in food production.</li>
+                <li>The land supports millions of families and is a key part of the state’s economy.</li>
+            </ul>
+            
+            <h3 class="centered-heading">Environmental Challenges</h3>
+            <p>Punjab’s farmland faces numerous environmental threats that affect its productivity and sustainability:</p>
+            <ul>
+                <li>Soil degradation from overuse of chemical fertilizers and pesticides.</li>
+                <li>Depletion of groundwater resources due to intensive irrigation practices.</li>
+                <li>Climate change leading to unpredictable weather patterns, affecting crop yields.</li>
+            </ul>
+
+            <h3 class="centered-heading">Sustainable Practices</h3>
+            <p>To preserve Punjab’s farmland, a shift toward sustainable agriculture is essential:</p>
+            <ul>
+                <li>Adopting crop rotation and organic farming to restore soil health.</li>
+                <li>Using water-efficient irrigation techniques to conserve water resources.</li>
+                <li>Encouraging agroforestry and biodiversity to support a balanced ecosystem.</li>
+            </ul>
+
+            <h3 class="centered-heading">How You Can Help</h3>
+            <p>Supporting sustainable agriculture in Punjab is crucial for preserving farmland for future generations. Here’s how you can contribute:</p>
+            <ul>
+                <li>Donate to initiatives that promote sustainable farming practices in Punjab.</li>
+                <li>Raise awareness about the environmental impact of intensive farming and the need for sustainable solutions.</li>
+                <li>Support policies that encourage environmentally friendly farming practices and protect farmland from exploitation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerLayerBg">
+        <p>&copy; Navjeet Hundal</p>
+    </div>
+
+    <script src="landingPage.js"></script>
+
+</body>
+</html>

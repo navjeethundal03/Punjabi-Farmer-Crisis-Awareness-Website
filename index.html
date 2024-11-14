@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjabi Farmer Crisis</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="resources/video/punjabiFields.mp4" type="video/mp4">
+        </video>
+        <audio id="backgroundMusic" class="bgm" src="resources/audio/punjabiFolkMusic.mp3" loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/images/logo.png" alt="Logo">
+                </div>
+                <div class="logoHakurei">Punjab Crisis</div>
+            </a>
+            <img id="audioController" src="resources/images/audioControllerOn.png" onclick="audioController()">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">This is the credited content.</div>
+                <div class="sourceC">Video source: Pexels</div>
+                <div class="sourceC">Music: Mixkit </div>
+                <div class="sourceC">Pictures: Pexels </div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="index.html">Home</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="characters hamburgerStuff" href="donate.html">Donate</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="contact hamburgerStuff" href="contact.html">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <!-- Main Section (Layer 1) -->
+    <div class="layer1Container">
+        <div class="layer1Left">
+            <div class="greetings">Support Punjabi Farmers</div>
+            <div class="description">
+                The Punjabi farmer crisis is an urgent humanitarian and economic issue affecting thousands. Learn how you can make a difference and support the farmers' cause.
+            </div>
+            <div class="donateNowContainer">
+                <a class="donateNow" href="donate.html">Donate Now!</a>
+            </div>
+        </div>
+        <div class="layer1Right">
+            <img class="layer1Image" src="resources/images/hero.jpg" alt="">
+            <div class="layer1Caption">Working Farmer</div>
+        </div>
+    </div>
+
+    <!-- Information Section (Layer 2) -->
+    <div class="layer2Bg">
+        <div class="layer2Content">
+            <div class="layer2Heading">Why Support Punjabi Farmers?</div>
+            <div class="layer2InfoContainer">
+                <div class="photo">
+                    <a href="protests.html">
+                        <img src="resources/images/section/protest.jpg" alt="Protests">
+                        <p>Protests</p>
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="families.html">
+                        <img src="resources/images/section/family.jpg" alt="Families">
+                        <p>Families</p>
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="culture.html">
+                        <img src="resources/images/section/culture.jpg" alt="Culture">
+                        <p>Culture</p>
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="farmland.html">
+                        <img src="resources/images/section/farmland.jpg" alt="Farmland">
+                        <p>Farmland</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote Section (Layer 3) -->
+    <div class="layer3">
+        <div class="layer3Text">
+            <div class="layer3Quote">"Respect those who are feeding you. No Farmers. No Food."</div>
+            <div class="layer3QuoteFrom">- Sidhu Moose Wala</div>
+        </div>
+    </div>
+
+    <!-- Contact Section (Layer 4) -->
+    <div class="layer4Bg">
+        <div class="layer4Content">
+            <div class="layer4Text">
+                <div class="layer4TextHeading">Stand with Punjabi Farmers</div>
+                <div class="layer4TextSubtext">Join us in supporting the farmers who are the backbone of our community. Your contribution helps preserve livelihoods, traditions, and the future of farming in Punjab.</div>
+            </div>
+            <div class="donateNowContainer">
+                <a class="donateNow" href="donate.html">Donate Now!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerLayerBg">
+        <p>&copy; Navjeet Hundal</p>
+    </div>
+
+    <!-- JavaScript for interactivity -->
+    <script src="landingPage.js"></script>
+
+</body>
+</html>

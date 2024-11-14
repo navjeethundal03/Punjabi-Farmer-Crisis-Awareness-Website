@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Punjabi Farmer Crisis</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="resources/video/contact.mp4" type="video/mp4">
+        </video>
+        <audio id="backgroundMusic" class="bgm" src="resources/audio/punjabiFolkMusic.mp3" loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/images/logo.png" alt="Logo">
+                </div>
+                <div class="logoHakurei">Punjab Crisis</div>
+            </a>
+            <img id="audioController" src="resources/images/audioControllerOn.png" onclick="audioController()">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">This is the credited content.</div>
+                <div class="sourceC">Video source: Pexels</div>
+                <div class="sourceC">Music: Mixkit</div>
+                <div class="sourceC">Pictures: Pexels</div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="index.html">Home</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="characters hamburgerStuff" href="donate.html">Donate</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="contact hamburgerStuff" href="contact.html">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <!-- Main Content Section for Contact -->
+    <div class="centeredContentContainer1">
+        <h2 class="greetings centered-heading">Get in Touch with Me</h2>
+        
+        <div class="description">
+            <p>If you would like to support the farmers directly, have any questions, or would like more information about the crisis, please feel free to reach out. Your voice and support make a difference.</p>
+            
+            <h3 class="centered-heading">Contact Information</h3>
+            <p>Feel free to contact and connect with me through the following channels:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:navjeethundal03@gmail.com" class="donate-link">navjeethundal03@gmail.com</a></li>
+                <li><strong>Phone:</strong> <a href="tel:+12098576426" class="donate-link">+1 (209) 857-6426</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/navjeet-hundal-1a7b6b25b" target="_blank" class="donate-link">Navjeet Hundal </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerLayerBg">
+        <p>&copy; Navjeet Hundal</p>
+    </div>
+
+    <script src="landingPage.js"></script>
+
+</body>
+</html>

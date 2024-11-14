@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protests - Punjabi Farmer Crisis</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="resources/video/punjab.mp4" type="video/mp4">
+        </video>
+        <audio id="backgroundMusic" class="bgm" src="resources/audio/punjabiFolkMusic.mp3" loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/images/logo.png" alt="Logo">
+                </div>
+                <div class="logoHakurei">Punjab Crisis</div>
+            </a>
+            <img id="audioController" src="resources/images/audioControllerOn.png" onclick="audioController()">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">This is the credited content.</div>
+                <div class="sourceC">Video source: Pexels</div>
+                <div class="sourceC">Music: Mixkit</div>
+                <div class="sourceC">Pictures: Pexels</div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="index.html">Home</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="characters hamburgerStuff" href="donate.html">Donate</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="contact hamburgerStuff" href="contact.html">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <!-- Main Content Section for Protests -->
+    <div class="centeredContentContainer">
+        <h2 class="greetings">Fighting for Farmers' Rights</h2>
+        
+        <div class="description">
+            <p>The Punjabi farmer protests have become one of the largest demonstrations in recent history. These protests, spearheaded by farmers across the state, represent a collective stand against legislation that threatens their livelihoods. The movement has garnered global attention, uniting voices from diverse backgrounds in support of the farmers' cause.</p>
+            
+            <h3 class="centered-heading">Why Did the Protests Start?</h3>
+            <p>The protests began as a response to new agricultural laws introduced by the government. Farmers believe these laws will:</p>
+            <ul>
+                <li>Remove guaranteed minimum support prices (MSP) that provide financial stability for small farmers.</li>
+                <li>Open up the agriculture sector to large corporations, potentially putting small farmers at a disadvantage.</li>
+                <li>Lead to the exploitation of farmers due to reduced government oversight in agricultural markets.</li>
+            </ul>
+            
+            <h3 class="centered-heading">Goals of the Protests</h3>
+            <p>Farmers are demanding that the government repeal these laws to protect their traditional way of life and prevent the commercialization of agriculture. The key demands include:</p>
+            <ul>
+                <li>Repeal of the new agricultural laws.</li>
+                <li>Legal guarantees for minimum support prices on key crops.</li>
+                <li>Protection against corporate exploitation and monopolization of the agriculture sector.</li>
+                <li>Recognition and support for sustainable and small-scale farming practices.</li>
+            </ul>
+
+            <h3 class="centered-heading">Impact of the Protests</h3>
+            <p>The protests have had far-reaching effects, including:</p>
+            <ul>
+                <li>Strengthening the solidarity of the farming community.</li>
+                <li>Raising awareness on a global scale about farmers' struggles in India.</li>
+                <li>Encouraging a dialogue on sustainable agricultural practices and the importance of food security.</li>
+            </ul>
+
+            <h3 class="centered-heading">How You Can Help</h3>
+            <p>Supporting the protests means standing up for farmers' rights and fair treatment. Here are some ways to contribute:</p>
+            <ul>
+                <li>Donate to reputable organizations that provide aid to protesting farmers.</li>
+                <li>Spread awareness by sharing information about the movement on social media.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerLayerBg">
+        <p>&copy; Navjeet Hundal</p>
+    </div>
+
+    <script src="landingPage.js"></script>
+
+</body>
+</html>

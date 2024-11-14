@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Punjabi Farmer Crisis</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="resources/video/punjabiFields.mp4" type="video/mp4">
+        </video>
+        <audio id="backgroundMusic" class="bgm" src="resources/audio/punjabiFolkMusic.mp3" loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/images/logo.png" alt="Logo">
+                </div>
+                <div class="logoHakurei">Punjab Crisis</div>
+            </a>
+            <img id="audioController" src="resources/images/audioControllerOn.png" onclick="audioController()">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">This is the credited content.</div>
+                <div class="sourceC">Video source: Pexels</div>
+                <div class="sourceC">Music: Mixkit</div>
+                <div class="sourceC">Pictures: Pexels</div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="index.html">Home</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="characters hamburgerStuff" href="donate.html">Donate</a>
+                <img class="separator hamburgerStuff" src="resources/images/glowySquare.png" alt="Separator">
+                <a class="contact hamburgerStuff" href="contact.html">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <!-- Main Content Section for Donate -->
+    <div class="centeredContentContainer">
+        <h2 class="greetings centered-heading">Support the Farmers of Punjab</h2>
+        
+        <div class="description">
+            <p>Your donation can make a difference in the lives of Punjabi farmers who are facing immense challenges. By contributing, you’re supporting sustainable agriculture, helping families in need, and preserving a way of life that has been passed down for generations.</p>
+            
+            <h3 class="centered-heading">How Your Donation Helps</h3>
+            <p>Every contribution goes a long way toward supporting Punjabi farmers. Here’s how your donation can make an impact:</p>
+            <ul>
+                <li><strong>Provide Financial Relief:</strong> Directly support families who are struggling due to financial instability and debt.</li>
+                <li><strong>Support Sustainable Practices:</strong> Fund initiatives that promote environmentally friendly and sustainable farming methods.</li>
+                <li><strong>Preserve Cultural Heritage:</strong> Help protect traditional practices and the cultural heritage of farming communities.</li>
+                <li><strong>Mental Health and Community Support:</strong> Provide resources for mental health and community resilience during challenging times.</li>
+            </ul>
+
+            <h3 class="centered-heading">Ways to Donate</h3>
+            <p>You can donate through trusted organizations that are working on the ground to support Punjabi farmers. Here are a few options:</p>
+            <ul>
+                <li><a href="https://langaraid.org/" target="_blank" class="donate-link">Langar Aid</a> – An organization that supports various humanitarian efforts, including assistance for farmers.</li>
+                <li><a href="https://www.khalsaaid.org/" target="_blank" class="donate-link">Khalsa Aid</a> – A global humanitarian organization helping communities in need, including farmers in Punjab.</li>
+            </ul>
+
+            <h3 class="centered-heading">Spread the Word</h3>
+            <p>If you can’t donate at this time, you can still support Punjabi farmers by raising awareness. Share information about the crisis, advocate for policy changes, and encourage others to contribute to the cause.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerLayerBg">
+        <p>&copy; Navjeet Hundal</p>
+    </div>
+
+    <script src="landingPage.js"></script>
+
+</body>
+</html>
